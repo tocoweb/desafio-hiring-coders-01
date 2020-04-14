@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultímas Notícias Covid-19</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="Logo">
+                </a>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="saiba.html">Saiba Mais</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="content">
+            <div id="title">
+                <h1>Contato</h1>
+            </div>
+            <div id="contato">
+                <form name="contact" method="POST" data-netlify="true">
+                    <div class="rowcontato">
+                        <div class="titlecontato">
+                            <label for="nome">Nome:</label>
+                        </div>
+                        <div class="field">
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+                        </div>
+                    </div>
+                    <div class="rowcontato">
+                        <div class="titlecontato">
+                            <label for="email">E-mail:</label>
+                        </div>
+                        <div class="field">
+                            <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+                        </div>
+                    </div>
+                    <div class="rowcontato">
+                        <div class="titlecontato">
+                            <label for="mensagem">Mensagem:</label>
+                        </div>
+                        <div class="field">
+                            <textarea name="mensagem" id="mensagem" 
+                                placeholder="Digite sua mensagem..."></textarea>
+                        </div>
+                    </div>
+                    <div class="rowcontato">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <p>Hiring-Coders | Alan Albiero@2020 </p>
+    </div>
+    </div>
+</body>
+
+</html>
